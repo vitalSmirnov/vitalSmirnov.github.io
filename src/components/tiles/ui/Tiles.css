@@ -1,0 +1,39 @@
+.tiles-component {
+  margin: 15em 0;
+  width: 100%;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;
+}
+
+.tiles-100 {
+  max-width: 750px;
+}
+
+.tile-item {
+  min-width: 343px;
+  max-width: 343px !important;
+  margin: 2em 1em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tile-item-image {
+  min-width: 343px;
+  max-width: 343px !important;
+  margin: 2em 1em;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.brown {
+  background: #392016;
+}
+
+.tile-image {
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=Tiles.css.map */
