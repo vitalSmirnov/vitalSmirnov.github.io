@@ -20,7 +20,7 @@ export const ControlledCarousel = () => {
                         <Carousel.Caption>
                             <h3 className={'slide-header'}>Secret Taste</h3>
                             <p className={'slide-caption'}>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Сезонный сорт сделаный из сидра урожая 2022 года с добавлнеием сока грейпфрута и ананаса. Сорт приурочен ко дню рождения наших друзей - производства "Рыбные правила".
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -29,7 +29,7 @@ export const ControlledCarousel = () => {
                         <Carousel.Caption>
                             <h3 className={'slide-header'}>Gravity</h3>
                             <p className={'slide-caption'}>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Новинки от всеми любимой пивоварни Gravity
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -38,7 +38,7 @@ export const ControlledCarousel = () => {
                         <Carousel.Caption>
                             <h3 className={'slide-header'}>Late Checkout</h3>
                             <p className={'slide-caption'}>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                Слабоалкогольная медовуха с настоем чая улун и ананасом.
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
