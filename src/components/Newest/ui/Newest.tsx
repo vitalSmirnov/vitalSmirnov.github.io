@@ -9,7 +9,7 @@ export const ControlledCarousel = () => {
     const handleSelect = (selectedIndex: number) => {
         setIndex(selectedIndex);
     };
-
+    //карусель
     return (
         <div className={'newest-component'}>
             <Container className={'newest-container'} data-bs-theme="dark">
