@@ -1,0 +1,1 @@
+import{j as t}from"./index-frjSYQmx.js";const e="_buttonContainer_uww3q_1",r="_button_uww3q_1",n={buttonContainer:e,button:r},a=({onClick:o,title:s})=>t.jsx(t.Fragment,{children:t.jsx("div",{className:n.buttonContainer,children:t.jsx("button",{onClick:o,className:n.button,children:s})})});export{a as B};

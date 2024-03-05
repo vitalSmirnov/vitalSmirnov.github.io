@@ -1,0 +1,1 @@
+import{u as e,j as t,R as n}from"./index-frjSYQmx.js";import{B as o}from"./index-D3cTVVnW.js";const i=()=>{const a=e(),s=()=>{a(n.START)};return t.jsx(t.Fragment,{children:t.jsx(o,{onClick:s,title:"Начало"})})};export{i as default};
