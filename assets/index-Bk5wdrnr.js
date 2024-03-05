@@ -1,1 +1,0 @@
-import{j as t}from"./index-CKL6gBd6.js";const e="_buttonContainer_1h4bn_1",r="_button_1h4bn_1",n={buttonContainer:e,button:r},a=({onClick:o,title:s})=>t.jsx(t.Fragment,{children:t.jsx("div",{className:n.buttonContainer,children:t.jsx("button",{onClick:o,className:n.button,children:s})})});export{a as B};
