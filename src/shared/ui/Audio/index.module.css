@@ -1,0 +1,12 @@
+.audioContainer{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.audioControl {
+    padding: 0.3rem;
+    border-radius: 30rem;
+    background: lightgray;
+    border: transparent;
+}

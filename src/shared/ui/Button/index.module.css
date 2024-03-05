@@ -1,0 +1,22 @@
+.buttonContainer{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: transparent;
+    background: #806b50;
+    transition: 0.2s all ease-in-out;
+}
+
+.button:hover{
+    background: burlywood;
+}
+
+.button:active{
+    background: burlywood;
+}
