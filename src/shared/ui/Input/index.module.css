@@ -3,25 +3,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .input {
+    color: black;
+    font-size: 1rem;
     border-radius: 1rem;
     border: 2px solid transparent;
     background: lightgray;
     padding: 0.5rem;
+    width: 50%;
 }
 
 .inputError {
+    color: black;
+    font-size: 1rem;
     border-radius: 1rem;
-    border: 2px solid red;
-    background: lightgray;
+    border: 2px solid transparent;
+    background: #EED3D9;
     padding: 0.5rem;
+    width: 50%;
 }
 
 .inputGood {
+    color: black;
+    font-size: 1rem;
     border-radius: 1rem;
     border: 2px solid transparent;
-    background: #497c3b;
+    background: #CCD3CA;
     padding: 0.5rem;
+    width: 50%;
 }

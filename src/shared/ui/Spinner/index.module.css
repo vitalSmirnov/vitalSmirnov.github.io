@@ -12,6 +12,7 @@
 
 .spinner {
     animation: iconAnimation 2s infinite;
+    transition: 0.2s all;
 }
 
 @keyframes iconAnimation {

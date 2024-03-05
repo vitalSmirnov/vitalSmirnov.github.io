@@ -2,11 +2,12 @@
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .audioControl {
     padding: 0.3rem;
     border-radius: 30rem;
-    background: lightgray;
+    background: #F3D5C0;
     border: transparent;
 }

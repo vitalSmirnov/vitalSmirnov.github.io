@@ -24,6 +24,7 @@ const FinalPage = () => {
         buttonless
       />
       <Text paragraph={Texts.FINAL} />
+      <Text paragraph={Texts.FINAL_EXTENDED} />
       {!firstPlay && <Text paragraph={Texts.FINAL_2} />}
     </>
   )
