@@ -1,0 +1,27 @@
+.inputContainer {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    background: lightgray;
+    padding: 0.5rem;
+}
+
+.inputError {
+    border-radius: 1rem;
+    border: 2px solid red;
+    background: lightgray;
+    padding: 0.5rem;
+}
+
+.inputGood {
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    background: #497c3b;
+    padding: 0.5rem;
+}

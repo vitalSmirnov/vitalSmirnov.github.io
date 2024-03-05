@@ -1,0 +1,10 @@
+.pContainer {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: cornflowerblue;
+    border-radius: 1rem;
+}
+
+.p {
+    text-align: center;
+}
