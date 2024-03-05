@@ -3,5 +3,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+}
+
+.cakeIconPulse {
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    animation: iconAnimation 4s infinite ease-in;
+}
+
+@keyframes iconAnimation {
+    0% {
+        transform: rotate(0deg);
+        stroke: #E25E3E ;
+    }
+    25% {
+        transform: rotate(-5deg);
+        stroke: #FFBB5C ;
+    }
+    50% {
+        transform: rotate(0deg);
+        stroke: #FF9B50 ;
+    }
+    75% {
+        transform: rotate(5deg);
+        stroke: #E25E3E ;
+    }
+    100% {
+        transform: rotate(0deg);
+        stroke: #FFBB5C;
+    }
 }

@@ -16,7 +16,7 @@ const OnBoardingPage = () => {
 
   setTimeout(() => {
     setLoading(false)
-  }, 5000)
+  }, 5600)
 
   return (
     <>

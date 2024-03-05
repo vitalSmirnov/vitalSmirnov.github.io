@@ -2,11 +2,9 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .button{
-    width: 50%;
     padding: 0.5rem;
     border-radius: 0.5rem;
     outline: none;

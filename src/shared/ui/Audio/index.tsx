@@ -41,22 +41,29 @@ const Audio = ({ src, play, buttonless = false }: AudioProps) => {
             <svg
               xmlns='http://www.w3.org/2000/svg'
               className='icon icon-tabler icon-tabler-repeat'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
+              width='48'
+              height='48'
+              viewBox='0 0 48 48'
               stroke-width='1.5'
               stroke='currentColor'
               fill='none'
               stroke-linecap='round'
               stroke-linejoin='round'
             >
+              <circle
+                stroke='none'
+                fill={'#F3D5C0'}
+                cx='50%'
+                cy='50%'
+                r='22'
+              />
               <path
                 stroke='none'
                 d='M0 0h24v24H0z'
                 fill='none'
               />
-              <path d='M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3' />
-              <path d='M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3' />
+              <path d='M10 26v-6a6 6 0 0 1 4 -6h22m-6 -6l6 6l-6 6' />
+              <path d='M38 22v6a6 6 0 0 1 -4 6h-22m6 6l-6 -6l6 -6' />
             </svg>
           </button>
         )}

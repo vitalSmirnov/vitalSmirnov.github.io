@@ -6,7 +6,6 @@ const CakeIcon = () => {
       <div className={styles.cakeIconContainer}>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          className='icon icon-tabler icon-tabler-cake'
           width='150'
           height='150'
           viewBox='0 0 24 24'
@@ -27,7 +26,9 @@ const CakeIcon = () => {
             2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0
              1 2 1a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1 -.197'
           />
-          <path d='M12 4l1.465 1.638a2 2 0 1 1 -3.015 .099l1.55 -1.737z' />
+          <g className={styles.cakeIconPulse}>
+            <path d='M12 4l1.465 1.638a2 2 0 1 1 -3.015 .099l1.55 -1.737z' />
+          </g>
         </svg>
       </div>
     </>

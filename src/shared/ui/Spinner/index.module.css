@@ -11,6 +11,8 @@
 }
 
 .spinner {
+    width: 15rem;
+    height: 15rem;
     animation: iconAnimation 2s infinite;
     transition: 0.2s all;
 }

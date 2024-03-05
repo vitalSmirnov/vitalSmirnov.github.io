@@ -6,8 +6,7 @@
 }
 
 .audioControl {
-    padding: 0.3rem;
-    border-radius: 30rem;
-    background: #F3D5C0;
+    padding: 1rem;
+    background: transparent;
     border: transparent;
 }
