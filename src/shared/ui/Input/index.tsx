@@ -10,7 +10,7 @@ const Input = ({ placeholder, onComplete }: InputProps) => {
   const [final, setFinal] = useState(false)
   const handleInput = (value: string) => {
     setError(false)
-    if (value.length === 9 && value === "tu'delema") {
+    if (value.length === 9 && value === 'tudelema') {
       setFinal(true)
       onComplete()
     } else {
