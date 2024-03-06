@@ -34,3 +34,26 @@
     padding: 0.5rem;
     width: 50%;
 }
+
+.inputCheckButton {
+    align-items: center;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: transparent;
+    background: #CCD3CA;
+    transition: 0.2s all ease-in-out;
+}
+
+.inputCheckButton:hover {
+    background: #9ce189;
+}
+
+.inputCheckButton:active {
+    opacity: 0.5;
+}
+
+.inputCheckIcon {
+    width: 0.8rem;
+}
